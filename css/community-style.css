@@ -1,0 +1,269 @@
+/* Root Variables */
+:root {
+    --primary-dark: #051f30;       /* Main Background */
+    --primary-blue: #0066ff;       /* Primary Blue */
+    --secondary-light: #dff6ff;    /* Light Text */
+    --accent-gold: #FFD700;        /* Accent Gold */
+    --light-gray: #f0f0f0;         /* Light Gray */
+    --card-bg: #06283d;            /* Card Background */
+
+        /* spacing */
+        --space-xs: 0.5rem;
+        --space-sm: 1rem;
+        --space-md: 2rem;
+        --space-lg: 4rem;
+        
+        /* Border */
+        --border-radius: 10px;
+        --border-gold: 2px solid var(--accent-gold);
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 5rem;
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 2px solid var(--accent-gold);
+    transition: all 0.3s ease;
+}
+.navbar.scrolled {
+    background-color: var(--navbar-scrolled-bg);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-light);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.navbar-brand h1 {
+    font-family: 'Orbitron', sans-serif !important;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    font-size: 40px;
+    font-size: 500;
+}
+
+.navbar img {
+    height: 2rem;
+    width: auto;
+}
+
+.nav-link {
+    color: var(--text-primary);
+    font-weight: 500;
+    padding: var(--space-xs) var(--space-sm);
+    transition: all 0.3s;
+}
+
+.nav-link:hover  {
+    color: var(--accent-gold);
+}
+
+.nav-link.active {
+    color: var(--accent-gold) !important;
+    font-weight: bold;
+}
+
+.btn-login {
+    font-weight: 600;
+    transition: all 0.3s;
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 0.3rem 2rem;
+    border-radius: 15px;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+.btn-signup {
+    background-color: var(--accent-gold);
+    margin: 0 1rem;
+    color: white;
+    padding: 0.3rem 2rem;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-signup:hover {
+    background-color: var(--accent-light);
+    transform: translateY(-2px);
+}
+
+/* Community Page Layout */
+.community-page {
+    display: flex;
+    min-height: calc(100vh - 5rem); /* Subtract navbar height */
+    margin-top: 5rem; /* Offset for fixed navbar */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .server-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar .section-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.sidebar .channel-list {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .channel-list li {
+    margin-bottom: 0.5rem;
+}
+.sidebar .channel-list a {
+    color: var(--secondary-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.sidebar .channel-list a.active,
+.sidebar .channel-list a:hover {
+    background-color: rgba(255, 215, 0, 0.1); /* Transparent Gold */
+    color: var(--accent-gold);
+}
+.sidebar .user-list {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .user-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-light);
+}
+.sidebar .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Main Chat Area */
+.chat-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.chat-header {
+    background-color: var(--primary-blue);
+    color: var(--accent-gold);
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.message-thread {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.message {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.message .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.message .message-content {
+    background-color: var(--card-bg);
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: 80%;
+}
+.message .username {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.message .timestamp {
+    font-size: 0.8rem;
+}
+.message-input {
+    background-color: white;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.message-input input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.message-input button {
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.message-input button:hover {
+    background-color: #0052cc;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-dark);
+    color: var(--accent-gold);
+    padding: 1rem;
+    text-align: center;
+}

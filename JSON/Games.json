@@ -1,0 +1,1044 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "The Witcher 3: Wild Hunt",
+      "description": "An epic open-world RPG where you hunt monsters and shape the fate of a dark fantasy universe.",
+      "price": 39.99,
+      "discount": 20,
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "genres": [
+        "RPG",
+        "Open World"
+      ],
+      "release_date": "2015-05-19",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "rating": 4.9,
+      "age_rating": "Mature 17+",
+      "languages": {
+        "audio": [
+          "English",
+          "Polish"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": false,
+      "dlc": [
+        {
+          "name": "Hearts of Stone",
+          "price": 9.99
+        }
+      ],
+      "achievements": true,
+      "features": [
+        "Dynamic Weather",
+        "Branching Story"
+      ],
+      "cover_image": "../assets/games/The Witcher 3 Wild Hunt.jpg",
+      "screenshots": [
+        "https://example.com/witcher3-1.jpg"
+      ],
+      "trailer": "https://example.com/witcher3.mp4",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 150,
+      "is_available": true,
+      "tags": [
+        "Fantasy",
+        "Monsters"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "FIFA 23",
+      "description": "Experience hyper-realistic football with the latest gameplay innovations.",
+      "price": 59.99,
+      "platforms": [
+        "PlayStation 5",
+        "Xbox Series X"
+      ],
+      "genres": [
+        "Sports",
+        "Simulation"
+      ],
+      "release_date": "2022-09-30",
+      "developer": "EA Sports",
+      "publisher": "Electronic Arts",
+      "rating": 4.5,
+      "age_rating": "Everyone",
+      "languages": {
+        "audio": [
+          "English",
+          "Spanish"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": {
+        "online": true,
+        "local": 4
+      },
+      "dlc": [
+        {
+          "name": "Ultimate Team Pack",
+          "price": 4.99
+        }
+      ],
+      "achievements": true,
+      "features": [
+        "Career Mode",
+        "Ultimate Team"
+      ],
+      "cover_image": "../assets/games/FIFA 23.jpg",
+      "screenshots": [
+        "https://example.com/fifa23-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "Xbox Series X",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 200,
+      "is_available": true,
+      "tags": [
+        "Football",
+        "Multiplayer"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cyberpunk 2077",
+      "description": "A dystopian RPG set in the sprawling metropolis of Night City.",
+      "price": 49.99,
+      "platforms": [
+        "PC",
+        "PlayStation 5"
+      ],
+      "genres": [
+        "RPG",
+        "Sci-Fi"
+      ],
+      "release_date": "2020-12-10",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "rating": 4.3,
+      "age_rating": "Mature 18+",
+      "languages": {
+        "audio": [
+          "English",
+          "Japanese"
+        ],
+        "text": [
+          "English"
+        ]
+      },
+      "multiplayer": false,
+      "dlc": [
+        {
+          "name": "Phantom Liberty",
+          "price": 29.99
+        }
+      ],
+      "features": [
+        "Customizable Characters",
+        "Cyberware"
+      ],
+      "cover_image": "../assets/games/Cyberpunk 2077.jpg",
+      "stock": 90,
+      "is_available": true
+    },
+    {
+      "id": 4,
+      "title": "Red Dead Redemption 2",
+      "description": "An outlaw's journey through the American frontier.",
+      "price": 59.99,
+      "platforms": [
+        "PC",
+        "PlayStation 4"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "release_date": "2018-10-26",
+      "developer": "Rockstar Games",
+      "rating": 4.8,
+      "tags": [
+        "Wild West",
+        "Story-Driven"
+      ],
+      "cover_image": "../assets/games/Red Dead Redemption 2.jpg",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "PlayStation 4",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 150,
+      "is_available": true
+    },
+    {
+      "id": 5,
+      "title": "Minecraft",
+      "description": "Build and explore infinite blocky worlds.",
+      "price": 29.99,
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "genres": [
+        "Sandbox",
+        "Survival"
+      ],
+      "age_rating": "Everyone 10+",
+      "tags": [
+        "Building",
+        "Creativity"
+      ],
+      "cover_image": "../assets/games/minecraft.jpg",
+      "release_date": "2011-11-18",
+      "publisher": "Mojang Studios",
+      "rating": 4.8,
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i3",
+          "memory": "4GB",
+          "graphics": "Intel HD Graphics",
+          "storage": "2GB"
+        },
+        "console": {
+          "os": "Nintendo Switch",
+          "processor": "Custom Nvidia Tegra",
+          "memory": "4GB",
+          "graphics": "Nvidia",
+          "storage": "2GB"
+        }
+      },
+      "is_available": true,
+      "stock": 300
+    },
+    {
+      "id": 6,
+      "title": "Grand Theft Auto V",
+      "description": "A criminal saga across the city of Los Santos.",
+      "price": 29.99,
+      "genres": [
+        "Action",
+        "Open World"
+      ],
+      "developer": "Rockstar Games",
+      "cover_image": "../assets/games/Grand Theft Auto V.jpg",
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "publisher": "Rockstar Games",
+      "rating": 4.6,
+      "release_date": "2013-09-17",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5",
+          "memory": "8GB",
+          "graphics": "NVIDIA GTX 660",
+          "storage": "72GB"
+        },
+        "console": {
+          "os": "PlayStation 4",
+          "processor": "AMD Jaguar",
+          "memory": "8GB",
+          "graphics": "AMD GCN",
+          "storage": "72GB"
+        }
+      },
+      "is_available": true,
+      "stock": 120
+    },
+    {
+      "id": 7,
+      "title": "Elden Ring",
+      "description": "A fantasy action RPG with vast landscapes and brutal combat.",
+      "price": 59.99,
+      "genres": [
+        "RPG",
+        "Souls-like"
+      ],
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco Entertainment",
+      "rating": 4.7,
+      "age_rating": "Mature 17+",
+      "languages": {
+        "audio": [
+          "English",
+          "Japanese"
+        ],
+        "text": [
+          "English"
+        ]
+      },
+      "multiplayer": false,
+      "dlc": [
+        {
+          "name": "The Lost Chapter",
+          "price": 9.99
+        }
+      ],
+      "features": [
+        "Customizable Characters",
+        "Elden Ring"
+      ],
+      "cover_image": "../assets/games/Elden Ring.jpg",
+      "screenshots": [
+        "../assets/games/Elden Ring-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 150,
+      "is_available": true
+    },
+    {
+      "id": 8,
+      "title": "Fortnite",
+      "description": "Battle Royale game with building mechanics and vibrant visuals.",
+      "price": 0.0,
+      "genres": [
+        "Battle Royale",
+        "Shooter"
+      ],
+      "developer": "Epic Games",
+      "publisher": "Epic Games",
+      "rating": 4.5,
+      "age_rating": "Everyone",
+      "languages": {
+        "audio": [
+          "English",
+          "Spanish"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": {
+        "online": true,
+        "local": 4
+      },
+      "dlc": [
+        {
+          "name": "Ultimate Team Pack",
+          "price": 4.99
+        }
+      ],
+      "achievements": true,
+      "features": [
+        "Career Mode",
+        "Ultimate Team"
+      ],
+      "cover_image": "../assets/games/Fortnite.jpg",
+      "screenshots": [
+        "../assets/games/Fortnite-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "Xbox Series X",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 200,
+      "is_available": true,
+      "tags": [
+        "Battle Royale",
+        "FPS"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Apex Legends",
+      "description": "Team-based hero shooter set in the Titanfall universe.",
+      "price": 0.0,
+      "genres": [
+        "Shooter",
+        "Battle Royale"
+      ],
+      "developer": "Respawn Entertainment",
+      "publisher": "Electronic Arts",
+      "rating": 4.5,
+      "age_rating": "Everyone",
+      "languages": {
+        "audio": [
+          "English",
+          "Spanish"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": {
+        "online": true,
+        "local": 4
+      },
+      "dlc": [
+        {
+          "name": "Ultimate Team Pack",
+          "price": 4.99
+        }
+      ],
+      "achievements": true,
+      "features": [
+        "Career Mode",
+        "Ultimate Team"
+      ],
+      "cover_image": "../assets/games/Apex Legends.jpg",
+      "screenshots": [
+        "../assets/games/Apex Legends-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "GTX 770",
+          "storage": "35GB"
+        },
+        "console": {
+          "os": "Xbox Series X",
+          "processor": "AMD Ryzen 5950X",
+          "memory": "16GB",
+          "graphics": "RTX 3060",
+          "storage": "1TB"
+        }
+      },
+      "stock": 200,
+      "is_available": true
+    },
+    {
+      "id": 10,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "description": "Explore the vast kingdom of Hyrule in this open-air adventure.",
+      "price": 59.99,
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "genres": [
+        "Adventure",
+        "Open World"
+      ],
+      "cover_image": "../assets/games/The Legend of Zelda Breath of the Wild.jpg",
+      "publisher": "Nintendo",
+      "rating": 4.9,
+      "system_requirements": {
+        "console": {
+          "os": "Nintendo Switch",
+          "processor": "NVIDIA Tegra X1",
+          "memory": "4GB",
+          "graphics": "NVIDIA GM20B",
+          "storage": "13GB"
+        }
+      },
+      "is_available": true,
+      "stock": 150
+    },
+    {
+      "id": 11,
+      "title": "Overwatch 2",
+      "description": "Team-based hero shooter with dynamic 5v5 battles.",
+      "price": 0.0,
+      "genres": [
+        "Shooter",
+        "Multiplayer"
+      ],
+      "developer": "Blizzard",
+      "cover_image": "../assets/games/Overwatch 2.jpg",
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X"
+      ],
+      "rating": 4.4,
+      "release_date": "2022-10-04",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5",
+          "memory": "8GB",
+          "graphics": "NVIDIA GTX 1060",
+          "storage": "30GB"
+        },
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "AMD Zen 2",
+          "memory": "16GB",
+          "graphics": "AMD RDNA 2",
+          "storage": "30GB"
+        }
+      },
+      "is_available": true,
+      "stock": 180
+    },
+    {
+      "id": 12,
+      "title": "Call of Duty: Warzone",
+      "description": "Free-to-play Battle Royale in the Call of Duty universe.",
+      "price": 0.0,
+      "genres": [
+        "Battle Royale",
+        "FPS"
+      ],
+      "cover_image": "../assets/games/Call of Duty Warzone.jpg",
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X"
+      ],
+      "rating": 4.3,
+      "release_date": "2020-03-10",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5",
+          "memory": "8GB",
+          "graphics": "NVIDIA GTX 670",
+          "storage": "100GB"
+        },
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "AMD Zen 2",
+          "memory": "16GB",
+          "graphics": "AMD RDNA 2",
+          "storage": "100GB"
+        }
+      },
+      "is_available": true,
+      "stock": 170
+    },
+    {
+      "id": 13,
+      "title": "Among Us",
+      "description": "Social deduction game of teamwork and betrayal.",
+      "price": 4.99,
+      "genres": [
+        "Party",
+        "Multiplayer"
+      ],
+      "cover_image": "../assets/games/Among Us.png",
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Mobile"
+      ],
+      "rating": 4.6,
+      "release_date": "2018-06-15",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 7",
+          "processor": "Intel Pentium 4",
+          "memory": "1GB",
+          "graphics": "Any",
+          "storage": "250MB"
+        }
+      },
+      "is_available": true,
+      "stock": 220
+    },
+    {
+      "id": 14,
+      "title": "Rocket League",
+      "description": "Soccer meets driving in this high-octane hybrid sports game.",
+      "price": 0.00,
+      "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+      "genres": ["Sports", "Arcade"],
+      "release_date": "2015-07-07",
+      "developer": "Psyonix",
+      "publisher": "Psyonix",
+      "rating": 4.6,
+      "age_rating": "Everyone",
+      "languages": { "audio": ["English"], "text": ["English", "Arabic"] },
+      "multiplayer": { "online": true, "local": 4 },
+      "features": ["Cross-Platform", "Competitive Matches"],
+      "cover_image": "../assets/games/Rocket League.jpg",
+      "screenshots": ["../assets/games/RocketLeague-1.jpg"],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 7",
+          "processor": "Dual Core 2.5 GHz",
+          "memory": "4GB",
+          "graphics": "NVIDIA GTX 660",
+          "storage": "7GB"
+        }
+      },
+      "stock": 200,
+      "is_available": true,
+      "tags": ["Cars", "Soccer"]
+    },
+    {
+      "id": 15,
+      "title": "Horizon Forbidden West",
+      "description": "Explore a majestic but dangerous frontier as Aloy uncovers the secrets of a dying world.",
+      "price": 69.99,
+      "platforms": ["PlayStation 5"],
+      "genres": ["Action", "Open World"],
+      "release_date": "2022-02-18",
+      "developer": "Guerrilla Games",
+      "publisher": "Sony Interactive Entertainment",
+      "rating": 4.8,
+      "age_rating": "Teen",
+      "languages": { "audio": ["English"], "text": ["English", "Arabic"] },
+      "multiplayer": false,
+      "features": ["Exploration", "RPG Elements"],
+      "cover_image": "../assets/games/Horizon Forbidden West.jpg",
+      "screenshots": ["../assets/games/HorizonForbiddenWest-1.jpg"],
+      "system_requirements": {
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "Custom AMD Zen 2",
+          "memory": "16GB",
+          "graphics": "AMD RDNA 2",
+          "storage": "85GB"
+        }
+      },
+      "stock": 160,
+      "is_available": true,
+      "tags": ["Robots", "Post-Apocalyptic"]
+    },
+    {
+      "id": 16,
+      "title": "God of War: Ragnarök",
+      "description": "Join Kratos and Atreus on their mythic journey through the Norse realms.",
+      "price": 69.99,
+      "platforms": [
+        "PlayStation 5"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "cover_image": "../assets/games/God of War Ragnarok.jpg",
+      "release_date": "2022-11-09",
+      "developer": "Santa Monica Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "rating": 4.9,
+      "age_rating": "Mature 17+",
+      "languages": {
+        "audio": [
+          "English",
+          "Norse"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": false,
+      "features": [
+        "Story-Driven",
+        "Boss Fights"
+      ],
+      "screenshots": [
+        "../assets/games/GodOfWarRagnarok-1.jpg"
+      ],
+      "system_requirements": {
+        "console": {
+          "os": "PlayStation 5",
+          "processor": "Custom AMD Zen 2",
+          "memory": "16GB",
+          "graphics": "AMD RDNA 2",
+          "storage": "90GB"
+        }
+      },
+      "stock": 200,
+      "is_available": true,
+      "tags": [
+        "Mythology",
+        "Hack and Slash"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Animal Crossing: New Horizons",
+      "description": "Live your best island life in Animal Crossing: New Horizons.",
+      "price": 59.99,
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "genres": [
+        "Simulation",
+        "Social"
+      ],
+      "cover_image": "../assets/games/Animal Crossing New Horizons.jpg",
+      "release_date": "2020-03-20",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "rating": 4.8,
+      "age_rating": "Everyone",
+      "languages": {
+        "audio": [
+          "English"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": {
+        "online": true,
+        "local": 4
+      },
+      "features": [
+        "Island Customization",
+        "Seasonal Events"
+      ],
+      "screenshots": [
+        "../assets/games/AnimalCrossing-1.jpg"
+      ],
+      "system_requirements": {
+        "console": {
+          "os": "Nintendo Switch",
+          "processor": "NVIDIA Tegra X1",
+          "memory": "4GB",
+          "graphics": "NVIDIA GM20B",
+          "storage": "8GB"
+        }
+      },
+      "stock": 175,
+      "is_available": true,
+      "tags": [
+        "Relaxing",
+        "Creative"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Resident Evil 4 Remake",
+      "description": "Survive the horrors of a reimagined classic in Resident Evil 4 Remake.",
+      "price": 59.99,
+      "genres": [
+        "Horror",
+        "Action"
+      ],
+      "cover_image": "../assets/games/Resident Evil 4 Remake.jpg",
+      "platforms": [
+        "PC",
+        "PlayStation 5"
+      ],
+      "release_date": "2023-03-24",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "rating": 4.7,
+      "age_rating": "Mature 17+",
+      "languages": {
+        "audio": [
+          "English",
+          "Japanese"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": false,
+      "features": [
+        "Over-the-Shoulder View",
+        "Inventory System"
+      ],
+      "screenshots": [
+        "../assets/games/RE4Remake-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i7",
+          "memory": "16GB",
+          "graphics": "GTX 1070",
+          "storage": "50GB"
+        }
+      },
+      "stock": 160,
+      "is_available": true,
+      "tags": [
+        "Zombies",
+        "Survival Horror"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Starfield",
+      "description": "Explore the vastness of space in Bethesda's new RPG.",
+      "price": 69.99,
+      "genres": [
+        "Sci-Fi",
+        "RPG"
+      ],
+      "cover_image": "../assets/games/Starfield.jpg",
+      "platforms": [
+        "PC",
+        "Xbox Series X"
+      ],
+      "release_date": "2023-09-06",
+      "developer": "Bethesda Game Studios",
+      "publisher": "Bethesda Softworks",
+      "rating": 4.1,
+      "age_rating": "Mature 17+",
+      "languages": {
+        "audio": [
+          "English"
+        ],
+        "text": [
+          "English",
+          "Arabic"
+        ]
+      },
+      "multiplayer": false,
+      "features": [
+        "Space Exploration",
+        "Ship Building"
+      ],
+      "screenshots": [
+        "../assets/games/Starfield-1.jpg"
+      ],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "AMD Ryzen 5 3600X",
+          "memory": "16GB",
+          "graphics": "NVIDIA RTX 2080",
+          "storage": "125GB"
+        }
+      },
+      "stock": 140,
+      "is_available": true,
+      "tags": [
+        "Space",
+        "Exploration"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Stardew Valley",
+      "description": "You're moving to the Valley... With a bit of hard work and dedication, you might just be the one to restore Stardew Valley to greatness!",
+      "price": 39.99,
+      "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
+      "genres": ["Farming", "Simulation"],
+      "release_date": "2016-02-26",
+      "developer": "ConcernedApe",
+      "publisher": "ConcernedApe",
+      "rating": 4.9,
+      "age_rating": "Everyone 10+",
+      "languages": { "audio": ["English"], "text": ["English", "Arabic"] },
+      "multiplayer": { "online": true, "local": 2 },
+      "features": ["Farming", "Relationship Building"],
+      "cover_image": "../assets/games/Stardew Valley.jpg",
+      "screenshots": ["../assets/games/StardewValley-1.jpg"],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows Vista or greater",
+          "processor": "2 GHz",
+          "memory": "2GB",
+          "graphics": "256 MB video memory, shader model 3.0+",
+          "storage": "500MB"
+        }
+      },
+      "stock": 140,
+      "is_available": true,
+      "tags": ["Farming", "Indie"]
+    },
+    {
+      "id": 21,
+      "title": "Wuthering Waves",
+      "description": "An open-world action RPG set in a post-apocalyptic world.",
+      "price": 0.00,
+      "platforms": ["PC", "Mobile"],
+      "genres": ["Action", "RPG"],
+      "release_date": "2024-05-23",
+      "developer": "Kuro Games",
+      "publisher": "Kuro Games",
+      "rating": 4.6,
+      "age_rating": "Teen",
+      "languages": { "audio": ["English", "Chinese"], "text": ["English", "Arabic"] },
+      "multiplayer": false,
+      "features": ["Open World", "Hack and Slash"],
+      "cover_image": "../assets/games/Wuthering-Waves.jpg",
+      "screenshots": ["../assets/games/Wuthering-Waves-1.jpg"],
+      "trailer": "https://example.com/wuthering-waves.mp4",
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-8400",
+          "memory": "8GB",
+          "graphics": "GTX 1060",
+          "storage": "30GB"
+        }
+      },
+      "stock": 180,
+      "is_available": true,
+      "tags": ["Post-Apocalyptic", "Anime"]
+    },
+    {
+      "id": 22,
+      "title": "Days Gone Black",
+      "description": "Survive a post-pandemic world filled with danger and chaos.",
+      "price": 59.99,
+      "platforms": ["PlayStation 5", "PC"],
+      "genres": ["Action", "Survival"],
+      "release_date": "2021-03-12",
+      "developer": "Bend Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "rating": 4.2,
+      "age_rating": "Mature 17+",
+      "languages": { "audio": ["English"], "text": ["English", "Arabic"] },
+      "multiplayer": false,
+      "features": ["Open World", "Story-Driven"],
+      "cover_image": "../assets/games/days-gone-black.png",
+      "screenshots": ["../assets/games/Days-Gone-1.jpg"],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel i5-2500K",
+          "memory": "8GB",
+          "graphics": "NVIDIA GTX 780",
+          "storage": "70GB"
+        }
+      },
+      "stock": 130,
+      "is_available": true,
+      "tags": ["Zombies", "Survival"]
+    },
+    {
+      "id": 23,
+      "title": "Genshin Impact",
+      "description": "Explore a fantasy world of elemental magic and adventure.",
+      "price": 0.00,
+      "platforms": ["PC", "PlayStation 5", "Mobile"],
+      "genres": ["Action", "Adventure"],
+      "release_date": "2020-09-28",
+      "developer": "miHoYo",
+      "publisher": "Cognosphere",
+      "rating": 4.7,
+      "age_rating": "Teen",
+      "languages": { "audio": ["English", "Chinese", "Japanese"], "text": ["English", "Arabic"] },
+      "multiplayer": true,
+      "features": ["Co-op Mode", "Exploration"],
+      "cover_image": "../assets/games/Genshin-Impact.jpg",
+      "screenshots": ["../assets/games/Genshin-1.jpg"],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5",
+          "memory": "8GB",
+          "graphics": "GTX 1060",
+          "storage": "30GB"
+        }
+      },
+      "stock": 250,
+      "is_available": true,
+      "tags": ["Anime", "Fantasy"]
+    },
+    {
+      "id": 24,
+      "title": "Honkai: Star Rail",
+      "description": "A turn-based space fantasy RPG from the creators of Genshin Impact.",
+      "price": 0.00,
+      "platforms": ["PC", "Mobile", "PlayStation 5"],
+      "genres": ["RPG", "Sci-Fi"],
+      "release_date": "2023-04-26",
+      "developer": "miHoYo",
+      "publisher": "Cognosphere",
+      "rating": 4.6,
+      "age_rating": "Teen",
+      "languages": { "audio": ["English", "Chinese", "Japanese"], "text": ["English", "Arabic"] },
+      "multiplayer": false,
+      "features": ["Turn-Based Combat", "Space Exploration"],
+      "cover_image": "../assets/games/rappa-honkai-star-3840x2160-19777.jpg",
+      "screenshots": ["../assets/games/Honkai-1.jpg"],
+      "system_requirements": {
+        "pc": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5",
+          "memory": "8GB",
+          "graphics": "GTX 1060",
+          "storage": "30GB"
+        }
+      },
+      "stock": 210,
+      "is_available": true,
+      "tags": ["Sci-Fi", "Turn-Based"]
+    }
+    
+  ],
+  "metadata": {
+    "total_games": 24,
+    "version": "4.0",
+    "last_updated": "2025-5-25"
+  }
+}

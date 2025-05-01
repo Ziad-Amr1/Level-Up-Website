@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up | Digital Game Store</title>
+    <link rel="icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/store-style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/logo1.jpg" alt="Level Up Logo" class="logo">
+                <h1 class="text-gold ms-2 brand-title">Level Up</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="store.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+                    <li class="nav-item btn-item"><a class="nav-link btn-signup" href="#">Sign Up</a></li>
+                    <li class="nav-item btn-item"><a class="nav-link btn-login" href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-light-gray">
+        <div class="container-fluid text-center hero-overlay">
+            <h1 class="display-4 fw-bold text-gold">Game Store</h1>
+            <p class="lead text-muted">Discover the latest titles</p>
+        </div>
+    </header>
+    
+    <!-- Search and Navigation -->
+      <section class="search-bar-section py-4 bg-light-gray">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 position-relative">
+                    <form class="search-bar">
+                        <input type="text" 
+                              placeholder="Search games..." 
+                              class="form-control search-input"
+                              id="gameSearch">
+                        <button type="submit" class="btn-accent">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="search-suggestions"></div>
+                </div>
+            </div>
+            <nav class="store-nav mt-4">
+                <ul class="d-flex justify-content-center gap-4">
+                    <li><a href="#" class="nav-link">Discover</a></li>
+                    <li><a href="#" class="nav-link">Browse</a></li>
+                    <li><a href="#" class="nav-link">News</a></li>
+                </ul>
+            </nav>
+        </div>
+      </section>
+
+        <!-- Game Preview -->
+        <div class="game-preview-section-title">
+          <h2 class="section-title">Featured Games</h2>
+         </div>
+        <section class="preview-section">
+          <div class="game-preview">
+            <img src="assets/placeholder.jpg" class="preview-image" alt="Game Preview">
+            
+            <div class="game-content">
+              <h3 class="preview-title">Loading...</h3>
+              <p class="preview-description">Please wait</p>
+              
+              <div class="game-actions">
+                <button class="btn-play">Add to Cart</button>
+                <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        
+          <div class="games-list">
+            <ul>
+              <!-- سيتم توليد عناصر الألعاب هنا تلقائيًا -->
+            </ul>
+          </div>
+        </section>
+
+            <!-- ===== Featured Games Section ===== -->
+    <section class="featured-games section-spacing">
+      <div class="container">
+        <h2 class="section-title">Best Games for You</h2>
+        <div class="game-grid-2">
+    
+          <!-- Game Card 1 -->
+          <div class="game-card-2">
+            <div class="card-inner-2">
+              <img src="assets/wuthering-waves-8k-7680x4320-19534.jpg" alt="Wuthering Waves">
+              <div class="game-details-2">
+                <h3 class="game-title-2">Wuthering Waves</h3>
+                <p class="game-price-2">Free</p>
+                <div class="game-actions-2">
+                  <a href="#" class="btn-primary">Buy Now</a>
+                  <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Game Card 2 -->
+          <div class="game-card-2">
+            <div class="card-inner-2">
+              <img src="assets/games/rappa-honkai-star-3840x2160-19777.jpg" alt="Honkai Star Rail">
+              <div class="game-details-2">
+                <h3 class="game-title-2">Honkai Star Rail</h3>
+                <p class="game-price-2">Free</p>
+                <div class="game-actions-2">
+                  <a href="#" class="btn-primary">Buy Now</a>
+                  <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Game Card 3 -->
+          <div class="game-card-2">
+            <div class="card-inner-2">
+              <img src="assets/games/Starfield.jpg" alt="Starfield">
+              <div class="game-details-2">
+                <h3 class="game-title-2">Starfield</h3>
+                <p class="game-price-2">$69.99</p>
+                <div class="game-actions-2">
+                  <a href="#" class="btn-primary">Buy Now</a>
+                  <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Game Card 4 -->
+          <div class="game-card-2">
+            <div class="card-inner-2">
+              <img src="assets/games/days-gone-black.png" alt="Days Gone Black">
+              <div class="game-details-2">
+                <h3 class="game-title-2">Days Gone Black</h3>
+                <p class="game-price-2">$59.99</p>
+                <div class="game-actions-2">
+                  <a href="#" class="btn-primary">Buy Now</a>
+                  <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ====== Store Main Section ====== -->
+    <main class="store-main">
+
+    <section class="games-grid-section">
+    <div class="container">
+
+        <!-- Header for All Games -->
+        <div class="games-header d-flex justify-content-between align-items-center flex-wrap mb-4">
+        <h2 class="section-title m-0">All Games</h2>
+        <div class="games-controls d-flex gap-3 align-items-center">
+            <select class="sort-select">
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="rating">Top Rated</option>
+            <option value="newest">Newest First</option>
+            </select>
+            <button class="filter-toggle-btn open-filters-btn">
+            <i class="fas fa-filter"></i> Filters
+            </button>
+        </div>
+        </div>
+
+        <!-- Game Grid -->
+        <div class="games-grid"></div>
+        <div class="pagination"></div>
+
+    </div>
+    </section>
+
+
+    <section class="featured-section section-spacing">
+      <div class="container position-relative">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+              <h2 class="section-title">Staff Picks</h2>
+              <div class="carousel-controls">
+                  <button class="btn btn-outline-gold prev-btn">
+                      <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <button class="btn btn-outline-gold next-btn">
+                      <i class="fas fa-chevron-right"></i>
+                  </button>
+              </div>
+          </div>
+          
+          <div class="carousel-inner">
+              <div class="carousel-track"></div>
+          </div>
+          
+          <!-- مؤشرات التقدم -->
+          <div class="carousel-indicators"></div>
+      </div>
+    </section>
+
+    </main>
+    
+
+    <!-- Footer -->
+    <footer class="py-4 bg-primary-blue">
+        <div class="container text-center">
+            <p class="text-gold">&copy; 2023 Level Up. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- //////////////  Filter Sidebar /////////////// -->
+<!-- Filter Sidebar -->
+<div class="filter-sidebar">
+    <div class="filters-content">
+    <div class="sidebar-header">
+        <h3 class="text-gold">Filters</h3>
+        <button class="close-sidebar close-filters-btn">&times;</button>
+    </div>
+    
+    <div class="sidebar-content">
+        <!-- Price Filter -->
+        <div class="price-range">
+            <h4>Price Range:</h4>
+            <div class="price-range-container">
+                <div class="range-slider">
+                  <div class="slider-track"></div>
+                  <input type="range" id="price-min" step="1">
+                  <input type="range" id="price-max" step="1">
+                </div>
+                <div class="range-values">
+                  <input type="text" id="price-min-value">
+                  <input type="text" id="price-max-value">
+                </div>
+              </div>              
+          </div>
+          
+
+        <!-- Rating Filter -->
+        <div class="filter-section">
+            <h4 class="filter-title">Minimum Rating</h4>
+            <div class="rating-filter" id="rating-filter">
+              <i class="fa-solid fa-star" data-rating="1"></i>
+              <i class="fa-solid fa-star" data-rating="2"></i>
+              <i class="fa-solid fa-star" data-rating="3"></i>
+              <i class="fa-solid fa-star" data-rating="4"></i>
+              <i class="fa-solid fa-star" data-rating="5"></i>
+            </div>
+          </div>
+
+        <!-- Existing Filters -->
+        <div class="filter-group">
+            <h4>Platforms</h4>
+            <div class="platform-filters"></div>
+        </div>
+        
+        <div class="filter-group">
+            <h4>Genres</h4>
+            <div class="genre-filters"></div>
+        </div>
+
+        <div class="filter-actions">
+            <button id="clear-filters-btn">Clear Filters</button>
+            <button id="apply-filters-btn">Apply Filters</button>
+          </div>
+          
+    </div>
+    </div>
+</div>
+
+<div class="filter-overlay" id="filter-overlay"></div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>
