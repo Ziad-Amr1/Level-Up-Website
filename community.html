@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level Up | Community</title>
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="assets/website_icon2.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/community-style.css">
     <link rel="stylesheet" href="css/all.css">
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-blue">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="assets/logo1.jpg" alt="Level Up Logo" class="logo">
+                <img src="assets/logo (3).png" alt="Level Up Logo" class="logo">
                 <h1 class="text-gold ms-2">Level Up</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -27,75 +27,143 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
                     <li class="nav-item"><a class="nav-link active" href="community.html">Community</a></li>
-                    <li class="nav-item"><a class="nav-link btn-signup" href="#">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link btn-login" href="#">Login</a></li>                </ul>
+                    <li class="nav-item btn-item"><a class="nav-link btn-signup" href="sign.html">Sign Up</a></li>
+                    <li class="nav-item btn-item"><a class="nav-link btn-login" href="sign.html">Login</a></li>                
+                </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Community Page Layout -->
-    <div class="community-page">
-        <!-- Sidebar -->
-        <aside class="sidebar bg-primary-dark">
-            <div class="server-header text-center py-3">
-                <h3 class="text-gold">Level Up Community</h3>
+    <div class="community-layout">
+
+        <!-- الشريط الجانبي للسيرفرات -->
+        <aside class="servers-bar">
+            <div class="server-icon active server-icon-main">
+                <img src="assets/logo (3).png" alt="Main Server">
             </div>
-            <div class="channels">
-                <h4 class="section-title text-muted px-3">Channels</h4>
-                <ul class="channel-list">
-                    <li><a href="#" class="active"><i class="fas fa-hashtag"></i> General</a></li>
-                    <li><a href="#"><i class="fas fa-hashtag"></i> Gaming</a></li>
-                    <li><a href="#"><i class="fas fa-hashtag"></i> Events</a></li>
-                </ul>
+            <!-- <div class="server-divider">
+                <img src="assets/divider.png" alt="Divider">
+            </div> -->
+            <div class="server-icon">
+                <img src="assets/games/genshin-impact.jpg" alt="genshin server">
             </div>
-            <div class="online-users">
-                <h4 class="section-title text-muted px-3">Online Users</h4>
-                <ul class="user-list">
-                    <li><img src="assets/user1.jpg" alt="User 1" class="avatar"> Ahmed</li>
-                    <li><img src="assets/user2.jpg" alt="User 2" class="avatar"> Sarah</li>
-                    <li><img src="assets/user3.jpg" alt="User 3" class="avatar"> Khaled</li>
-                </ul>
+            <div class="server-icon"><i class="fa fa-plus"></i></div>
+        </aside>
+    
+        <!-- شريط القنوات مع قسم المستخدم -->
+        <aside class="channels-bar">
+            <!-- عنوان القنوات -->
+            <div class="channels-header">
+                <h4>Level Up Community</h4>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+            <!-- قائمة القنوات -->
+            <ul class="channel-list">
+                <li class="active"><i class="fas fa-hashtag"></i> general</li>
+                <li><i class="fas fa-hashtag"></i> announcements</li>
+                <li><i class="fas fa-hashtag"></i> gaming</li>
+                <li class="category"><i class="fas fa-lock"></i> Voice Channels</li>
+                <li><i class="fas fa-headphones"></i> General Voice</li>
+            </ul>
+
+            <!-- قسم المستخدم -->
+            <div class="user-panel">
+                <div class="user-info">
+                    <img src="assets/team (8).jpg" alt="User Avatar" class="user-avatar">
+                    <div class="user-details">
+                        <span class="username">Kayda</span>
+                        <span class="user-status">#1234</span>
+                    </div>
+                </div>
+                <div class="user-controls">
+                    <button class="icon-btn"><i class="fas fa-microphone"></i></button>
+                    <button class="icon-btn"><i class="fas fa-cog"></i></button>
+                </div>
             </div>
         </aside>
-
-        <!-- Main Chat Area -->
-        <main class="chat-area bg-light-gray">
-            <div class="chat-header bg-primary-blue text-gold py-2 px-3">
-                <h4># General</h4>
-            </div>
-            <div class="message-thread p-3">
-                <div class="message">
-                    <img src="assets/user1.jpg" alt="User 1" class="avatar">
-                    <div class="message-content">
-                        <p class="username">Ahmed</p>
-                        <p class="text-muted">Hey everyone, how's it going?</p>
-                        <p class="timestamp">12:30 PM</p>
+    
+        <!-- منطقة الشات -->
+        <!-- منطقة الشات الرئيسية -->
+        <main class="chat-area">
+            <!-- رأس الشات مع الأيقونات -->
+            <div class="chat-header">
+                <div class="chat-header-container">
+                <div class="channel-info">
+                    <i class="fas fa-hashtag"></i>
+                    <h3>general</h3>
+                    <div class="channel-separator"></div>
+                    <div class="channel-description">
+                        <i class="fas fa-comment-alt"></i>
+                        Channel description goes here
                     </div>
                 </div>
-                <div class="message">
-                    <img src="assets/user2.jpg" alt="User 2" class="avatar">
-                    <div class="message-content">
-                        <p class="username">Sarah</p>
-                        <p class="text-muted">Not bad, just playing some games.</p>
-                        <p class="timestamp">12:31 PM</p>
+                <div class="chat-tools">
+                    <button class="icon-btn" id="members-btn"><i class="fas fa-user-friends"></i></button>
+                    <button class="icon-btn"><i class="fas fa-bell"></i></button>
+                    <button class="icon-btn"><i class="fas fa-pin"></i></button>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search">
+                        <i class="fas fa-search"></i>
                     </div>
+                    <button class="icon-btn"><i class="fas fa-inbox"></i></button>
+                    <button class="icon-btn"><i class="fas fa-question-circle"></i></button>
                 </div>
             </div>
-            <div class="message-input bg-white p-3">
-                <form class="d-flex">
-                    <input type="text" placeholder="Type a message..." class="form-control me-2">
-                    <button type="submit" class="btn-accent"><i class="fas fa-paper-plane"></i></button>
-                </form>
             </div>
-        </main>
-    </div>
+    
+          <div class="message-thread">
+            <!-- يتم إدراج الرسائل ديناميكياً -->
+          </div>
+    
+                      <!-- حقل إدخال الرسائل -->
+                      <div class="message-input">
+                        <div class="input-tools">
+                            <button class="icon-btn"><i class="fas fa-plus-circle"></i></button>
+                            <button class="icon-btn"><i class="fas fa-gift"></i></button>
+                            <button class="icon-btn"><i class="fas fa-grin"></i></button>
+                        </div>
+                        <div class="message-input-form">
+                            <form class="message-form">
+                                <input type="text" placeholder="Message #general">
+                                <button type="submit" class="send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
 
-    <!-- Footer -->
-    <footer class="py-4 bg-primary-blue">
-        <div class="container text-center">
-            <p class="text-gold">&copy; 2023 Level Up. All rights reserved.</p>
-        </div>
-    </footer>
+                    <!-- Members List (Discord-style) -->
+                    <aside class="members-bar">
+                        <div class="members-header">
+                            <h4>ONLINE — <span id="online-count">0</span></h4>
+                            <button class="icon-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                        
+                        <ul id="online-members" class="member-list">
+                            <!-- Online Members will be dynamically inserted here -->
+                        </ul>
+
+                        <div class="members-header members-divider">
+                            <h4>OFFLINE — <span id="offline-count">0</span></h4>
+                            <button class="icon-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+
+                        <ul id="offline-members" class="member-list">
+                            <!-- Offline Members will be dynamically inserted here -->
+                        </ul>
+
+                        <div class="members-footer">
+                            <button class="add-friend-btn">
+                                <i class="fas fa-user-plus"></i>
+                                Add Friend
+                            </button>
+                        </div>
+                    </aside>
+
+                </main>
+    
+      </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/community.js"></script>

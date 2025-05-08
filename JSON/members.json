@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "name": "Ahmed",
+      "avatar": "assets/team (2).jpg",
+      "status": "online",
+      "role": "Member",
+      "icon": "fas fa-headphones"
+    },
+    {
+      "id": 2,
+      "name": "Sarah",
+      "avatar": "assets/team (8).jpg",
+      "status": "online",
+      "role": "Admin",
+      "icon": "fas fa-gamepad"
+    },
+    {
+      "id": 3,
+      "name": "Khaled",
+      "avatar": "assets/team (6).jpg",
+      "status": "online",
+      "role": "Moderator",
+      "icon": "fas fa-comment"
+    },
+    {
+      "id": 4,
+      "name": "Samar",
+      "avatar": "assets/chara/chara.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 5,
+      "name": "Samira",
+      "avatar": "assets/chara/chara1.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 6,
+      "name": "Samah",
+      "avatar": "assets/chara/chara2.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 7,
+      "name": "Rana",
+      "avatar": "assets/chara/chara3.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 8,
+      "name": "Rayna",
+      "avatar": "assets/chara/chara4.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 9,
+      "name": "Ali",
+      "avatar": "assets/chara/chara5.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 10,
+      "name": "User6",
+      "avatar": "assets/chara/chara6.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 11,
+      "name": "User7",
+      "avatar": "assets/chara/chara7.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 12,
+      "name": "User8",
+      "avatar": "assets/chara/chara8.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 13,
+      "name": "User9",
+      "avatar": "assets/chara/chara9.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 14,
+      "name": "User10",
+      "avatar": "assets/chara/chara10.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 15,
+      "name": "User11",
+      "avatar": "assets/chara/chara11.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 16,
+      "name": "User12",
+      "avatar": "assets/chara/chara12.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 17,
+      "name": "User13",
+      "avatar": "assets/chara/chara13.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 18,
+      "name": "User14",
+      "avatar": "assets/chara/chara14.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 19,
+      "name": "User15",
+      "avatar": "assets/chara/chara15.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 20,
+      "name": "User16",
+      "avatar": "assets/chara/chara16.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 21,
+      "name": "User17",
+      "avatar": "assets/chara/chara17.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 22,
+      "name": "User18",
+      "avatar": "assets/chara/chara18.jpg",
+      "status": "offline"
+    },
+    {
+      "id": 23,
+      "name": "User19",
+      "avatar": "assets/chara/chara19.jpg",
+      "status": "offline"
+    }
+  ]
+  

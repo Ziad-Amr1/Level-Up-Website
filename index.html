@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Level Up - Ultimate Gaming Platform</title>
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="assets/website_icon2.png">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/logo1.jpg" alt="Level Up" class="logo">
+                <img src="assets/logo (2).png" alt="Level Up" class="logo">
                 <h1 class="brand-title">LEVEL UP</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -30,6 +30,7 @@
                     <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
                     <li class="nav-item btn-item"><a class="btn btn-signup" href="sign.html">Sign Up</a></li>
                     <li class="nav-item btn-item"><a class="btn btn-login" href="#">Login</a></li>
+                    <li class="nav-item btn-item user-profile"></li>
                     <!-- <li class="nav-item btn-item"><button class="theme-toggle"><i class="fas fa-moon"></i></button></li> -->
                 </ul>
             </div>
@@ -208,20 +209,102 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="newsletter-card">
-                <h3 class="newsletter-title">Get Weekly Game Deals!</h3>
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <!-- Main Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Info Column -->
+            <div class="footer-col">
+                <h4 class="footer-title">INFO</h4>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">About Us</a></li>
+                    <li><a href="#" class="footer-link">Pricing</a></li>
+                    <li><a href="#" class="footer-link">FAQ</a></li>
+                    <li><a href="#" class="footer-link">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources Column -->
+            <div class="footer-col">
+                <h4 class="footer-title">RESOURCES</h4>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Developer API</a></li>
+                    <li><a href="#" class="footer-link">Tools</a></li>
+                    <li><a href="#" class="footer-link">Compression</a></li>
+                    <li><a href="#" class="footer-link">Status</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Column -->
+            <div class="footer-col">
+                <h4 class="footer-title">COMPANY</h4>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Sustainability</a></li>
+                    <li><a href="#" class="footer-link">Careers</a></li>
+                    <li><a href="#" class="footer-link">Partners</a></li>
+                    <li><a href="#" class="footer-link">Newsroom</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="footer-col newsletter-col">
+                <h4 class="footer-title">GET GAME UPDATES</h4>
                 <div class="newsletter-form">
-                    <input type="email" placeholder="Your email" class="email-input">
-                    <button class="btn btn-accent">Subscribe</button>
+                    <div class="email-wrapper">
+                        <input 
+                            type="email" 
+                            placeholder="Your email" 
+                            class="email-input"
+                            aria-label="Subscribe to newsletter"
+                        >
+                        <button class="btn-submit" type="submit">
+                            SUBSCRIBE <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <p class="copyright">&copy; 2023 Level Up. All rights reserved.</p>
-        </div>
-    </footer>
 
+        </div> <!-- End .footer-grid -->
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <!-- Legal Links -->
+            <div class="legal-links">
+                <a href="#" class="legal-link">Terms of Service</a>
+                <a href="#" class="legal-link">Privacy Policy</a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="legal-links">
+                <span class="copyright">© 2025 Level Up website</span>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Discord Server">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter Profile">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram Page">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="YouTube Channel">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div> <!-- End .footer-bottom -->
+
+    </div> <!-- End .container -->
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>

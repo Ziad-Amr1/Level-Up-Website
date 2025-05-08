@@ -150,3 +150,16 @@ document.addEventListener('DOMContentLoaded', () => {
         `&copy; ${new Date().getFullYear()} Level Up. All rights reserved.`;
 });
 
+
+
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    // تحديث واجهة المستخدم عند تحميل الصفحة
+    auth.updateUI();
+    
+    // إضافة حدث لتحديث الواجهة عند تغيير الحالة
+    window.addEventListener('storage', () => {
+      auth.currentUser = JSON.parse(localStorage.getItem('currentUser'));
+      auth.updateUI();
+    });
+  });

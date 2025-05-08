@@ -779,7 +779,7 @@ body.no-scroll {
 
 .game-actions {
   display: flex;
-  /* gap: 1rem; */
+  gap: 1rem;
 }
 
 .game-preview button {

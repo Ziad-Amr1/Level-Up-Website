@@ -607,82 +607,165 @@ h1, h2, h3 {
     opacity: 1 !important;
 }
 
-/* Footer */
-footer {
+/* ======================
+   Footer Styles
+   ====================== */
+   .footer {
     background-color: var(--secondary-dark);
     color: var(--secondary-light);
-    padding: var(--space-md);
+    padding: 3rem 0;
+    border-top: 2px solid var(--accent-gold);
     text-align: center;
-    padding-bottom: 1rem;
 }
 
-.newsletter-card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--border-radius);
-    max-width: 500px;
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
     margin: 0 auto;
-    /* background: rgba(255, 255, 255, 0.05); */
-    padding: 1rem 0;
+    padding: 0 1rem;
+}
+
+.footer-col {
+    margin-bottom: 2rem;
+}
+
+.newsletter-col {
+    grid-column: span 2;
+}
+
+/* Titles */
+.footer-title {
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Links Section */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
 }
 
-.newsletter-card .newsletter-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+.footer-links li {
+    margin-bottom: 0.8rem;
 }
 
-.newsletter-card input {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px 0 0 5px;
-    flex-grow: 1;
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--accent-gold);
+}
+
+/* Newsletter Form */
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email-wrapper {
+    display: flex;
+    /* gap: 0.5rem; */
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .email-input {
+    flex-grow: 1;
     background: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
     border: 1px solid var(--accent-gold);
-    padding: var(--spacing-xs);
-}
-
-.newsletter-card input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.newsletter-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-}
-
-.newsletter-form button {
-    background: var(--accent-gold);
-    color: var(--primary-dark);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
+    color: var(--text-primary);
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0 ;
     transition: all 0.3s;
 }
 
-.newsletter-form button:hover {
+.email-input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+}
+
+.btn-submit {
+    background: var(--accent-gold);
+    color: var(--primary-dark);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s;
+
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0 ;
+}
+
+.btn-submit:hover {
     background: transparent;
-    color: var(--text-primary);
-    border: 2px solid var(--accent-gold);
-    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+    color: var(--accent-gold);
+    border: 1px solid var(--accent-gold);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.legal-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.legal-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.legal-links a:hover {
+    color: var(--accent-gold);
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: #ccc;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--accent-gold);
 }
 
 .copyright {
-    margin-bottom: 0;
+    color: #666;
+    font-size: 0.9rem;
 }
 
 /* /// */
@@ -868,10 +951,85 @@ footer {
     }
 
 
+        /* ======================
+           Mobile Footer Adjustments
+           ====================== */
+        
+        /* Main Grid Layout */
+        .footer-grid {
+            grid-template-columns: 1fr;
+            gap: 2.5rem; /* زيادة المسافة بين الأعمدة */
+        }
+    
+        /* Newsletter Column */
+        .newsletter-col {
+            grid-column: span 1; /* إلغاء span 2 في الجوال */
+        }
+    
+        /* Form Elements */
+        .email-wrapper {
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .email-input {
+            border-radius: 8px;
+        }
+    
+        .btn-submit {
+            width: 100%;
+            padding: 1rem; /* زيادة المساحة الداخلية */
+            border-radius: 8px;
+        }
+    
+        /* Footer Bottom Section */
+        .footer-bottom {
+            flex-direction: column;
+            gap: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    
+        /* Legal Links Stack */
+        .legal-links {
+            order: 2;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+    
+        /* Social Icons Positioning */
+        .social-links {
+            order: 1;
+            margin-bottom: 1.5rem;
+            justify-content: center;
+        }
+    
+        /* Copyright Notice */
+        .copyright {
+            order: 3;
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+        }
+    
+        /* Column Spacing */
+        .footer-col {
+            margin-bottom: 2rem;
+            padding: 0 1rem; /* إضافة padding جانبي */
+        }
+    
+        /* Title Adjustments */
+        .footer-title {
+            font-size: 1.2rem; /* زيادة حجم العناوين */
+            margin-bottom: 1.2rem;
+        }
+
+
+
 }
 
 @media (max-width: 480px) {
-    .newsletter-form {
+    /* .newsletter-form {
         flex-direction: column;
         gap: 1rem;
         width: 90%;
@@ -880,7 +1038,7 @@ footer {
     .email-input, .newsletter-form button {
         width: 100%;
         border-radius: 5px !important;
-    }
+    } */
 }
 
 
